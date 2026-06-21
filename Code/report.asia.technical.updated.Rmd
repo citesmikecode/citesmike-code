@@ -1,5 +1,5 @@
 ---
-title: "MIKE analysis for Asia - Technical Report (updated 02-May-2025)"
+title: "MIKE analysis for Asia - Technical Report (updated 03-June-2026)"
 author: "CITES MIKE"
 date: '`r format(Sys.time(), "%Y-%m-%d")`'
 output:
@@ -64,7 +64,7 @@ n.last.years <- 5 # how many last years to use for trend?
  
 This document estimates yearly-trends in the Proportion of Illegally Killed Elephants (PIKE) from  MIKE (Monitoring Illegally Killed Elephants) monitoring sites in Asia since 2003.  The method used here was published in 2020 on a GitHub repository [CITESmike2020/MIKE-GLMM](https://github.com/CITESmike2020/MIKE-GLMM) with the computer code (written in R) and several accompanying technical reports. The original technical report, which this document is based on, can be viewed by [clicking here](https://github.com/CITESmike2020/MIKE-GLMM/blob/main/ReportsAndEstimates/2020-10-29-report.africa.summary.pdf).  
 
-The computer code from the [GIT hub repository](https://github.com/CITESmike2020/MIKE-GLMM) has been modified to estimate yearly PIKE trends from 2003-2019 using only the unweighted marginal mean PIKE model (MM.p.uw), which does not require elephant population abundance data at the site-year level. The pro and cons of this approach are discussed in more detail in the original technical document.  
+The computer code from the [GIT hub repository](https://github.com/CITESmike2020/MIKE-GLMM) has been modified to estimate yearly PIKE trends from 2003-2025 using only the unweighted marginal mean PIKE model (MM.p.uw), which does not require elephant population abundance data at the site-year level. The pro and cons of this approach are discussed in more detail in the original technical document.  
 
 Briefly, MIKE data is collected on an annual basis in designated MIKE sites by law enforcement  and ranger patrols in the field and through other means.  When an elephant carcass is found, site personnel try to establish the cause of death and other details,  such as sex and age of the animal, status of ivory, and stage of decomposition of the carcass.  This information is recorded in standardized carcass forms, details of which are then submitted to the  MIKE Programme. 
 

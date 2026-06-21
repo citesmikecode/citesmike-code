@@ -14,13 +14,13 @@ data.source <- data.frame(MIKEsiteID=unique(mike.centers$MIKEsiteID[ mike.center
 
 # 1. Set end year (start year is always 2003)
 startyear <- 2003 
-endyear   <- 2024
+endyear   <- 2025
 
 
 # 2. Change the name of "carcassummarytable_YYYY-mm-dd.csv" file name below and 
 #    save the updated version of this R file.
 
-inputfilename <- file.path("..","Data","carcasssummarytable_2025-05-01.csv")
+inputfilename <- file.path("..","Data","carcasssummarytable_2026-06-02.csv")
 pike <- read.csv(inputfilename, header=TRUE, as.is=TRUE, strip.white=TRUE)
 
 
